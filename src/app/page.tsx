@@ -1,4 +1,4 @@
-import ImageGrid from "./components/ImageGrid";
+import ImageGrid from "../components/ImageGrid";
 import Image from "next/image";
 
 export default function Home() {
