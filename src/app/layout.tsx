@@ -5,8 +5,6 @@ import Header from "../components/Header";
 import Marquee from "../components/Marquee";
 import Footer from "../components/Footer";
 
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -15,19 +13,18 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children, 
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={inter.className} id="__next">
-        
-        <Marquee/>
-        <Header/>
+        <Marquee />
+        <Header />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

@@ -1,16 +1,19 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Modal from "react-modal";
 
-const images = Array.from({ length: 20 }, (_, i) => `/images/image${i + 1}.jpg`);
+const images = Array.from(
+  { length: 20 },
+  (_, i) => `/images/image${i + 1}.jpg`
+);
 
 const ImageGrid: React.FC = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState<string>("");
 
   useEffect(() => {
-    Modal.setAppElement("#__next"); // Define the app element for accessibility
+    Modal.setAppElement("#__next"); 
   }, []);
 
   const openModal = (src: string) => {

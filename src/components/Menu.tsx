@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { IoMenu, IoClose } from "react-icons/io5";
@@ -11,7 +11,7 @@ interface LinkItem {
 }
 
 const links: LinkItem[] = [
-  { id: 1, title: "Works", url: "/" }, // Alterado para "/"
+  { id: 1, title: "Works", url: "/" }, 
   { id: 2, title: "About Me", url: "/about" },
   { id: 3, title: "Instagram", url: "https://www.instagram.com/duncan_mt/" },
 ];
@@ -49,7 +49,6 @@ const Menu = () => {
                 className="text-md font-bold uppercase cursor-pointer"
                 onClick={() => handleClick(item.url)}
               >
-                
                 <Link href={item.url}>
                   <span onClick={() => setOpen(false)}>{item.title}</span>
                 </Link>
