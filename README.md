@@ -1,6 +1,6 @@
 Este é um projeto [Next.js](https://nextjs.org/)  inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-##Live demo do Projeto: `https://justmovies-alpha.vercel.app`
+##Live demo do Projeto: `https://duncan-photo.vercel.app`
 
 ## Começando
 -Certifique-se de ter o Node.js instalado na sua máquina. Você pode baixá-lo e instalá-lo aqui: `https://nodejs.org/en`
