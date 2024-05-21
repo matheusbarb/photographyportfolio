@@ -8,7 +8,7 @@ Este é um projeto [Next.js](https://nextjs.org/)  inicializado com [`create-nex
 ## Executando
 
 Primeiro, Clone o repositório do projeto Next.js para o seu ambiente local usando o Git. Abra o terminal e execute o seguinte comando: 
-`git clone https://github.com/matheusbarb/justmovies.git `
+`git clone https://github.com/matheusbarb/photographyportfolio.git `
 
 Após a conclusão do clone, navegue até o diretório do projeto usando o comando:
  `cd`
@@ -37,7 +37,7 @@ Sinta-se à vontade para personalizar este guia de acordo com as necessidades do
 
 This is a [Next.js](https://nextjs.org/) project initialized with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-##Project Live Demo: `https://justmovies-alpha.vercel.app`
+##Project Live Demo: `[https://justmovies-alpha.vercel.app](https://duncan-photo.vercel.app)`
 
 ## Getting Started
 Make sure you have Node.js installed on your machine. You can download and install it here `https://nodejs.org/en`
@@ -45,7 +45,7 @@ Make sure you have Node.js installed on your machine. You can download and insta
 
 ## Running
 First, Clone the Next.js project repository to your local environment using Git. Open the terminal and execute the following command:
-`git clone https://github.com/matheusbarb/justmovies.git `
+`git clone https://github.com/matheusbarb/photographyportfolio.git `
 
 After the cloning is complete, navigate to the project directory using the command:
 `cd` 
